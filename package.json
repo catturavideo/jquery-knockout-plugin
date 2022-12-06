@@ -1,0 +1,19 @@
+{
+  "name": "jquery-knockout-plugin",
+  "version": "0.2.1",
+  "description": "Easy usage of Knockout from jQuery",
+  "main": "src/jquery-knockout-plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catturavideo/jquery-knockout-plugin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catturavideo/jquery-knockout-plugin/issues"
+  },
+  "homepage": "https://github.com/catturavideo/jquery-knockout-plugin#readme"
+}

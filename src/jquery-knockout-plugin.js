@@ -4,6 +4,8 @@
 if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
     define(['jquery', 'knockout'], factory);
+} else if (typeof require === 'function' && typeof module === 'object') {
+	module.exports = factory;
 } else {
     // Browser globals
     factory(jQuery, ko);
